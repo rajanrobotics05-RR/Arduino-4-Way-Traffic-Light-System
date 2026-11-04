@@ -16,3 +16,7 @@ The system operates in a sequential manner. One direction receives a GREEN signa
 
 Developed by: Rajan Robotics
 Tagline: Vision to Reality
+
+![Rajan Robotics - Arduino Traffic Light Prototype](RR_Arduino_traffic_signal.png)
+
+*Figure 1: Arduino-Based 4-Way Traffic Light Prototype developed by Rajan Robotics.*
