@@ -81,17 +81,47 @@ The traffic lights operate sequentially, allowing only one direction to receive 
 
 🚦 Traffic Signal Sequence
 
-Step| North| East| South| West| Duration
-1| GREEN| RED| RED| RED| 5 sec
-2| YELLOW| RED| RED| RED| 2 sec
-3| RED| GREEN| RED| RED| 5 sec
-4| RED| YELLOW| RED| RED| 2 sec
-5| RED| RED| GREEN| RED| 5 sec
-6| RED| RED| YELLOW| RED| 2 sec
-7| RED| RED| RED| GREEN| 5 sec
-8| RED| RED| RED| YELLOW| 2 sec
+The traffic signals operate in the following order:
 
-After completing all four directions, the sequence repeats continuously.
+1. North – GREEN (5 seconds)
+
+- North: GREEN
+- East, South, West: RED
+
+2. North – YELLOW (2 seconds)
+
+- North: YELLOW
+- East, South, West: RED
+
+3. East – GREEN (5 seconds)
+
+- East: GREEN
+- North, South, West: RED
+
+4. East – YELLOW (2 seconds)
+
+- East: YELLOW
+- North, South, West: RED
+
+5. South – GREEN (5 seconds)
+
+- South: GREEN
+- North, East, West: RED
+
+6. South – YELLOW (2 seconds)
+
+- South: YELLOW
+- North, East, West: RED
+
+7. West – GREEN (5 seconds)
+
+- West: GREEN
+- North, East, South: RED
+
+8. West – YELLOW (2 seconds)
+
+- West: YELLOW
+- North, East, South: RED
 
 Key Features
 
