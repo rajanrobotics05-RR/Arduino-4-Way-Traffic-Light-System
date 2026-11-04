@@ -1,4 +1,4 @@
-🚦 Project Overview
+hi🚦 Project Overview
 
 The Arduino-Based 4-Way Traffic Light Control System is a beginner-friendly electronics and embedded systems project developed by Rajan Robotics.
 
@@ -166,7 +166,7 @@ The project can be upgraded with the following features:
 
 👨‍💻 Developed By
 
-##Rajan Robotics
+**Rajan Robotics**
 
 Vision to Reality
 
