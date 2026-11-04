@@ -130,3 +130,10 @@ Key Features
 - Automatic sequential operation.
 - Adjustable GREEN and YELLOW timings.
 - Simple Arduino-based control logic.
+
+
+## 💻 Source Code
+
+The complete Arduino program is available here:
+
+[Download Arduino Source Code](traffic_light_control.ino)
