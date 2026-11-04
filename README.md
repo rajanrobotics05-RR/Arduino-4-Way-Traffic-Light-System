@@ -20,3 +20,23 @@ Tagline: Vision to Reality
 ![Rajan Robotics - Arduino Traffic Light Prototype](RR_Arduino_traffic_signal.png)
 
 *Figure 1: Arduino-Based 4-Way Traffic Light Prototype developed by Rajan Robotics.*
+
+🧰 Components Required
+
+The following components are used to build the 4-way traffic light prototype.
+
+S.No.| Component| Quantity
+1| Arduino UNO| 1
+2| 3-LED Traffic Light Module (Red, Yellow, Green)| 4
+3| Mini Breadboard| 4
+4| Male-to-Male Jumper Wires| As required
+5| USB Cable| 1
+6| Computer with Arduino IDE| 1
+
+🛠️ Software Requirements
+
+- Arduino IDE
+- Arduino UNO Board Package
+- USB Driver (if required)
+
+Note: The Arduino UNO is powered through the USB cable or a suitable 5V supply. Check whether your traffic-light modules have built-in current-limiting resistors.
