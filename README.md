@@ -71,3 +71,32 @@ Verify the traffic-light module pinout before connecting. If the modules do not 
 Controller: Arduino UNO
 Number of traffic-light modules: 4
 Total signal outputs: 12
+
+
+⚙️ Working Principle
+
+The system controls four traffic signals independently: North, East, South, and West.
+
+The traffic lights operate sequentially, allowing only one direction to receive a GREEN signal at a time. The remaining three directions display RED.
+
+🚦 Traffic Signal Sequence
+
+Step| North| East| South| West| Duration
+1| GREEN| RED| RED| RED| 5 sec
+2| YELLOW| RED| RED| RED| 2 sec
+3| RED| GREEN| RED| RED| 5 sec
+4| RED| YELLOW| RED| RED| 2 sec
+5| RED| RED| GREEN| RED| 5 sec
+6| RED| RED| YELLOW| RED| 2 sec
+7| RED| RED| RED| GREEN| 5 sec
+8| RED| RED| RED| YELLOW| 2 sec
+
+After completing all four directions, the sequence repeats continuously.
+
+Key Features
+
+- Independent control of four traffic signals.
+- Three RED signals remain ON while one direction is active.
+- Automatic sequential operation.
+- Adjustable GREEN and YELLOW timings.
+- Simple Arduino-based control logic.
