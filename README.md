@@ -40,3 +40,34 @@ S.No.| Component| Quantity
 - USB Driver (if required)
 
 Note: The Arduino UNO is powered through USB or a suitable 5V supply. Check whether the traffic-light modules have built-in current-limiting resistors.
+
+
+🔌 Circuit Connections
+
+Each traffic-light module has three control inputs:
+
+- Red (R)
+- Yellow (Y)
+- Green (G)
+
+Arduino UNO Pin Mapping
+
+Direction| Red| Yellow| Green
+North| D2| D3| D4
+East| D5| D6| D7
+South| D8| D9| D10
+West| D11| D12| D13
+
+Common Connections
+
+- Connect all module GND pins to Arduino GND.
+- Connect each signal input to its corresponding Arduino digital pin.
+- Connect Arduino UNO to the computer using a USB cable.
+
+Important
+
+Verify the traffic-light module pinout before connecting. If the modules do not have built-in current-limiting resistors, use suitable external resistors for the LEDs.
+
+Controller: Arduino UNO
+Number of traffic-light modules: 4
+Total signal outputs: 12
