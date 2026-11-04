@@ -39,4 +39,4 @@ S.No.| Component| Quantity
 - Arduino UNO Board Package
 - USB Driver (if required)
 
-Note: The Arduino UNO is powered through the USB cable or a suitable 5V supply. Check whether your traffic-light modules have built-in current-limiting resistors.
+Note: The Arduino UNO is powered through USB or a suitable 5V supply. Check whether the traffic-light modules have built-in current-limiting resistors.
