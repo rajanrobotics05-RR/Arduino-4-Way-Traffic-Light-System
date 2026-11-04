@@ -160,3 +160,18 @@ The project can be upgraded with the following features:
 4. Emergency Vehicle Priority: Give priority to ambulances and emergency vehicles.
 5. Smart Traffic Management: Use ESP8266 or ESP32 for IoT-based monitoring.
 6. Adaptive Traffic Control: Adjust signal timing based on vehicle density.
+
+
+---
+
+👨‍💻 Developed By
+
+##Rajan Robotics
+
+Vision to Reality
+
+Empowering students through practical learning in Robotics, Electronics, Embedded Systems and IoT.
+
+📧 GitHub: "Rajan Robotics" (https://github.com/rajanrobotics05-RR)
+
+⭐ If you find this project useful, don't forget to give it a star!
